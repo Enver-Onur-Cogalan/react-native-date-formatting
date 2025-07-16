@@ -36,11 +36,11 @@ __tests__/             # Jest + RTL tests
 
 ## 🛠️ Key Features
 
-| Component / Util | API | Açıklama |
+| Component / Util | API | Explanation |
 |------------------|-----|----------|
 | `formatDate` | `format()` | Generic pattern formatter |
 | `formatInTZ` | `formatInTimeZone()` | IANA time‑zone helper |
-| `timeAgo` | `formatDistanceToNow()` | *x dakika önce* |
+| `timeAgo` | `formatDistanceToNow()` | *x minutes ago* |
 | `LiveClock` | `setInterval` + `format()` | Device live clock |
 | `LiveTZClock` | `formatInTimeZone()` | Live clock in any TZ |
 | `AddSubtractExample` | `addDays`, `subHours` | Date math demo |
